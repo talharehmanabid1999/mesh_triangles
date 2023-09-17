@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+#selectionRectangle {
+  border: 1px solid #ff0000;
+  background-color: rgba(255, 0, 0, 0.2);
+  position: absolute;
+  pointer-events: none;
+}
+
+    .mode-text {
+        font-size: 20px;
+        margin-left: 10px;
+    }
+
+    #top-header {
+        position: fixed; /* this will position the header relative to the viewport */
+        top: 0; /* this positions it at the very top */
+        left: 0; /* this positions it at the left */
+        width: 100%; /* this will make it stretch across the entire viewport */
+        z-index: 9999; /* this will make it appear above everything else */
+        background: #fff; /* change this to the color of your choice */
+        text-align: center; /* optional, this centers the text */
+        padding: 10px; /* optional, adds some padding */
+      }
